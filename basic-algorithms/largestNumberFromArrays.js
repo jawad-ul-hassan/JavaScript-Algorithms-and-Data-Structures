@@ -10,7 +10,7 @@ function largestOfFour(arr) {
     let newArr = [];
     for(var i=0; i<arr.length; i++){
       let largestNumber = arr[i][0];
-      for(var j=0; j<arr.length; j++){
+      for(var j=1; j<arr.length; j++){
         if(arr[i][j]>largestNumber){
           largestNumber = arr[i][j];
         }

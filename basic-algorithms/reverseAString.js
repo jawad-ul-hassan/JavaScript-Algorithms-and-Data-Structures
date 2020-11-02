@@ -8,7 +8,7 @@ Your result must be a string.
 function reverseString(str) {
     let arr = str.split("");
     let newArr=[];
-    for(var i=arr.length; i>=0; i--){
+    for(var i=arr.length-1; i>=0; i--){
       newArr.push(arr[i])
     }
     return newArr.join("");
